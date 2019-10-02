@@ -1,0 +1,77 @@
+/* Pagina 1 */
+
+.Inicio{
+    background: #453d70;
+    font-family: monospace;    
+}
+.cabecalho, .novo{
+    width: 50%;
+    margin: auto;
+}
+.novo a{
+    background: #ffffff;
+    color: #00863c;
+    text-transform: uppercase;    
+    font-size: 0.875em;    
+    border: 1px solid #00662b;
+    padding: 0.275em 0.8em;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.novo a:hover{
+    background: #00863c;
+    color: #ffffff;
+}
+table{
+    width: 50%;
+    margin: 1em auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+thead{
+    background: #000000;
+    color: #ffffff; 
+    }
+th{
+    height: 2em;
+    text-align: left;
+    padding: 0.5em 0 0 1em;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+td{
+    height: 1.5em;
+    padding: 0.5em 1em;
+    border: 1px solid #000000;         
+}
+tbody tr:hover{
+    background: #01109b;
+    color: #ffffff; 
+}
+
+/* Pagina 2*/
+
+body{
+    background: #85848d;
+    font-family: monospace;
+}
+.cabecalho{
+    text-align: center;
+    margin: center;
+    padding-bottom: 3%;
+}
+form{
+    text-align: center;
+    margin-left: 43%;
+    font-size: 20px;
+    width: 15%;
+    height: 30%;         
+}
+label{
+    color: #003315;
+    text-align: left;
+}
+hr{
+    margin-left: -55%;
+    width: 400px;
+}
