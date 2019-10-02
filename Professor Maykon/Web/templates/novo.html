@@ -1,8 +1,8 @@
 <html>
     <head>
-        <title></title>
-    </head>
-    <link rel="stylesheet" href="../static/estilos.css">
+        <title>{{nome}}</title>
+        <link rel="stylesheet" href="../static/estilos.css">
+    </head>    
     <body>
         <div class="cabecalho">
             <h1>Novo Aluno</h1> 
@@ -14,13 +14,12 @@
                 <input type="text" name="sobrenome"> <br/>
                 <label for="">Telefone :</label>
                 <input type="text" name='telefone'> <br/>
-                <hr />
-                <div class="novo">
-                    <a href="/">Salvar</a>
-                </div><br>
-                <div class="novo">
-                    <a href="/">Voltar</a>
-                </div>
+                <hr />               
+                <input class="salvar" type="submit" value="Salvar"><br />
+                <br />                
+            <div class="novo">
+                <a href="/">Voltar</a>
+            </div>
             </form>        
     </body>
 </html>

@@ -17,7 +17,7 @@ def inicio():
 
 @app.route('/novo')
 def novo():
-    return render_template('novo.html')   
+    return render_template('novo.html', nome='Novo Aluno')   
 
 @app.route('/salvar', methods=['POST'])
 def salvar():

@@ -1,8 +1,12 @@
 /* Pagina 1 */
 
 .Inicio{
-    background: #453d70;
+    background: url('hbsis 2.jpg');
+    background-size: 120%;
     font-family: monospace;    
+}
+.cabecalho{
+    font-size: 2em;
 }
 .cabecalho, .novo{
     width: 50%;
@@ -26,6 +30,7 @@ table{
     width: 50%;
     margin: 1em auto;
     border-collapse: collapse;
+    color: #000000;
     background-color: #ffffff;
 }
 thead{
@@ -52,8 +57,11 @@ tbody tr:hover{
 /* Pagina 2*/
 
 body{
-    background: #85848d;
+    background: url('HBSIS-E-AMBEV-FOTO-ALEX-MIRANDA-2.jpeg');
+    background-size: 120%;
     font-family: monospace;
+    color: #ffffff;
+    font-size: -3em;    
 }
 .cabecalho{
     text-align: center;
@@ -68,10 +76,24 @@ form{
     height: 30%;         
 }
 label{
-    color: #003315;
+    color: #ffffff;
     text-align: left;
 }
 hr{
     margin-left: -55%;
     width: 400px;
+}
+.salvar{
+    background: #ffffff;
+    color: #00863c;
+    text-transform: uppercase;    
+    font-size: 0.875em;    
+    border: 1px solid #00662b;
+    padding: 0.275em 0.8em;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.salvar:hover{
+    background: #00863c;
+    color: #ffffff;
 }
