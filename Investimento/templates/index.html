@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Hbsis - {{titulo}}</title>
+        <link rel="stylesheet" href="../static/estilos.css">       
+    </head>
+    <body>
+
+        <header class="cabecalho">
+            <div class="logo">               
+            </div>            
+            <div class="Menu">
+                <ul>
+                    <li>
+                        <a href="/cadastrar">Cadastrar Cerveja</a>
+                    </li>
+                    <li>
+                        <a href="/listar">Listar Cerveja</a>
+                    </li>
+                    <li>
+                        <a href="/pedidos">Fazer Pedido</a>
+                    </li>                
+                </ul>     
+            </div>
+        </header>
+        <div id="body">
+            {% block conteudo %} 
+            
+            {% endblock %}
+        </div>
+    </body>
+</html>

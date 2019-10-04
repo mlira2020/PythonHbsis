@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+.cabecalho{
+    width: 100%;
+    background: #000000;
+    height: 4em;
+}
+.cabecalho img{    
+    margin: 10px 0 0 15px;
+    width: 6em;
+    height: 3em;
+}
